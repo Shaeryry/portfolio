@@ -1,16 +1,15 @@
 [
-  {
-    "title": "Maze Generator",
-    "description": "A .NET 8 web service that generates random mazes using EF Core.",
-    "longDescription" : "hi",
-    "image": "/images/maze.png",
-    "link": "https://github.com/yourname/MazeGeneratorWebservice"
-  },
-  {
-    "title": "Roblox Racing System",
-    "description": "A Mario Kart-style movement system in Roblox with drift mechanics.",
-    "image": "/images/racing.png",
-    "longDescription" : "hi",
-    "link": "https://github.com/yourname/RobloxRacingSystem"
-  }
+    {
+      "title": "Maze Generator",
+      "description": "A .NET 8 web service that generates random mazes using EF Core.",
+      "longDescription": "This project exposes a REST API to generate mazes of customizable size and difficulty. It uses Entity Framework Core for persistence and is deployed with SQL Server.",
+      "image": "/images/maze.png",
+      "images": [
+        "/images/maze1.png",
+        "/images/maze2.png",
+        "/images/maze3.png"
+      ],
+      "background": "/videos/maze-demo.gif",
+      "link": "https://github.com/yourname/MazeGeneratorWebservice"
+    }
 ] 

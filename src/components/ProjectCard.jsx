@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-export default function ProjectCard({ project }) {
+export default function ProjectCard({ project, idx }) {
   return (
     <motion.div
       whileHover={{ scale: 1.05 }}
@@ -13,14 +14,12 @@ export default function ProjectCard({ project }) {
       />
       <h3 className="text-xl font-bold mt-3">{project.title}</h3>
       <p className="text-gray-600 flex-grow">{project.description}</p>
-      <a
-        href={project.link}
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        to={`/projects/${idx}`}
         className="text-blue-500 hover:underline mt-2"
       >
-        View Project →
-      </a>
+        Read More →
+      </Link>
     </motion.div>
   );
 }

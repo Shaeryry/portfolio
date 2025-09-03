@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Maze Generator",
+    "description": "A .NET 8 web service that generates random mazes using EF Core.",
+    "image": "/images/maze.png",
+    "link": "https://github.com/yourname/MazeGeneratorWebservice"
+  },
+  {
+    "title": "Roblox Racing System",
+    "description": "A Mario Kart-style movement system in Roblox with drift mechanics.",
+    "image": "/images/racing.png",
+    "link": "https://github.com/yourname/RobloxRacingSystem"
+  }
+]

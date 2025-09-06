@@ -12,25 +12,24 @@
       "tech": ["Unity","C#","Visual Studio","Perforce","HackNPlan"],
       "youtube" : ["zYxeNQi3vM0"]
     },
-     {
-      "title": "Sci-ANT-ology",
-      "short": "A game-jam action adventure where you play an ant missionary spreading the fungal faith of Mycenu while resisting corruption.",
-      "description": "Sci-ANT-ology is a game-jam project created in under 48 hours, where you step into the role of Fun Gus, a missionary ant chosen by the lord of mold, Mycenu. Your task is to evangelize the ant citizens of Ants-werp, spreading the fungal faith while fending off forces that seek to corrupt or silence your followers. Built collaboratively during the Unwrap Jam 2025, the game blends quirky humor with fast-paced action, showcasing a unique theme of cultish devotion, fungal mysticism, and grassroots evangelism—all packed into a short but memorable jam experience.",
-      "contribution": "• Flocking system of NPCs\n• Implemented AI behaviours\n• Basic movement mechanics \n• Designed code structure for ",
-      "cardCover":"https://img.itch.zone/aW1nLzIwNTQ4NzU3LnBuZw==/original/ATGAvh.png",
-      "image": "https://img.itch.zone/aW1nLzIwNTQ4NzU3LnBuZw==/original/ATGAvh.png",
-      "images": [
-        "./images/Sciantology/1.png",
-        "https://img.itch.zone/aW1hZ2UvMzQ0Mzk4OS8yMDU1MDMwNC5wbmc=/original/QKZYgC.png",
-        "https://img.itch.zone/aW1hZ2UvMzQ0Mzk4OS8yMDU1MDMwNi5wbmc=/original/8h03CL.png",
-        "https://img.itch.zone/aW1hZ2UvMzQ0Mzk4OS8yMDU1MDMwNS5wbmc=/original/1YpRYA.png"
-      ], 
-      "videos": [],
-      "itch" : "https://jonasooms.itch.io/sci-ant-ology",
-      "tech": ["Unity","C#","Visual Studio","Github"],
-      "youtube" : ["Ov3WNzuq3KE"]
-    },
-
+    {
+    "title": "Sci-ANT-ology",
+    "short": "A game-jam action adventure where you play an ant missionary spreading the fungal faith of Mycenu while resisting corruption.",
+    "description": "Sci-ANT-ology is a game-jam project created in under 48 hours, where you step into the role of Fun Gus, a missionary ant chosen by the lord of mold, Mycenu. Your task is to evangelize the ant citizens of Ants-werp, spreading the fungal faith while fending off forces that seek to corrupt or silence your followers. Built collaboratively during the Unwrap Jam 2025, the game blends quirky humor with fast-paced action, showcasing a unique theme of cultish devotion, fungal mysticism, and grassroots evangelism—all packed into a short but memorable jam experience.",
+    "contribution": "• Flocking system of NPCs\n• Implemented AI behaviours\n• Basic movement mechanics \n• Designed code structure for ",
+    "cardCover":"https://img.itch.zone/aW1nLzIwNTQ4NzU3LnBuZw==/original/ATGAvh.png",
+    "image": "https://img.itch.zone/aW1nLzIwNTQ4NzU3LnBuZw==/original/ATGAvh.png",
+    "images": [
+      "./images/Sciantology/1.png",
+      "https://img.itch.zone/aW1hZ2UvMzQ0Mzk4OS8yMDU1MDMwNC5wbmc=/original/QKZYgC.png",
+      "https://img.itch.zone/aW1hZ2UvMzQ0Mzk4OS8yMDU1MDMwNi5wbmc=/original/8h03CL.png",
+      "https://img.itch.zone/aW1hZ2UvMzQ0Mzk4OS8yMDU1MDMwNS5wbmc=/original/1YpRYA.png"
+    ], 
+    "videos": [],
+    "itch" : "https://jonasooms.itch.io/sci-ant-ology",
+    "tech": ["Unity","C#","Visual Studio","Github"],
+    "youtube" : ["Ov3WNzuq3KE"]
+  },
   {
     "title": "Kirby's Adventure remake",
     "short": "A C++ game project recreating Kirby with custom controls, powers, levels, and scene management, built as part of the DAE Programming 2 course.",
@@ -53,17 +52,5 @@
 
     ],
     "tech": ["C++","Visual Studio"]
-  },
-
-  {
-    "title": "Demon Hunter",
-    "short": "A Roblox RPG where players fight as Demon Slayers or Demons in parry-based combat with faction-based progression.",
-    "description": "Demon Hunter is a competitive RPG built in Roblox where players align with one of two factions: Demon Slayers or Demons. The core of the game is a parry-based combat system that emphasizes timing, precision, and skillful counterplay. Players face off in structured events and matchmaking modes, pitting the two factions against one another in intense duels and large-scale battles.\n\nBeyond combat, the game features a faction-based progression system. Players climb through the ranks of their chosen side — advancing as disciplined Demon Slayers or rising in power as fearsome Demons. This ranking system provides long-term goals, fosters replayability, and deepens the rivalry between factions.\n\nDesigned around competitive balance, the combat system rewards mastery of parries, dodges, and counterattacks rather than simple button mashing. Event-based matchmaking ensures that players are continually placed in fresh encounters, encouraging both cooperative faction play and individual skill progression.\n\nThis project highlights systems design and implementation within the Roblox engine, including custom combat mechanics, matchmaking logic, event-based gameplay loops, and a progression framework. Demon Hunter showcases my ability to script advanced gameplay systems in Luau while delivering an engaging, competitive multiplayer experience.",
-    "cardCover":"https://tr.rbxcdn.com/180DAY-717f0fc56af79676c83a738cb487d977/768/432/Image/Webp/noFilter", 
-    "contribution" : "• Designed and implemented base combat system. \n• Implemented advanced enemy AI \n• Designed and made a customizable ability sytem for breathing styles.\n• Made cross-server faction matchmaking.\n• Implemented Perks system. \n• Made basic blade crafting/upgrade system.",
-    "images" : [
-        "./images/Demon Hunter/1.png"
-    ],
-    "tech": ["Roblox Studio","Luau"]
   }
 ] 

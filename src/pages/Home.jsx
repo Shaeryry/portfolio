@@ -158,7 +158,7 @@ export default function Home() {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.2 }}
                 >
-                  I design & build interactive, high-quality web experiences.
+                  Aspiring gameplay programmer with a passion for mechanics that feel great to play.
                 </motion.p>
 
                 {/* CTA Buttons */}
@@ -193,7 +193,7 @@ export default function Home() {
                   Skills
                 </h2>
                 <p className="text-white/70">
-                  Placeholder
+                  Languages, engines, and tools I use to craft game experiences.
                 </p>
               </div>
               <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
@@ -220,7 +220,7 @@ export default function Home() {
                   Projects
                 </h2>
                 <p className="text-white/70">
-                  Placeholder
+                  From prototypes to full game systems.
                 </p>
               </div>
 
@@ -398,7 +398,7 @@ export default function Home() {
               )}
 
               {/* Links */}
-              {(selectedProject.github || selectedProject.itch) && (
+              {(selectedProject.github || selectedProject.itch || selectedProject.roblox) && (
                 <div className="mt-7 flex flex-wrap gap-4">
                   {selectedProject.github && (
                     <a
@@ -418,6 +418,16 @@ export default function Home() {
                       className="inline-flex items-center gap-2 rounded-lg border border-[#bbdefb]/60 px-5 py-2.5 text-[#bbdefb] hover:bg-[#bbdefb]/10"
                     >
                       Play on Itch.io
+                    </a>
+                  )}
+                  {selectedProject.roblox && (
+                    <a
+                      href={selectedProject.roblox}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 rounded-lg border border-[#D8524B]/60 px-5 py-2.5 text-[#D8524B] hover:bg-[#D8524B]/10"
+                    >
+                      Play on ROBLOX
                     </a>
                   )}
                 </div>
@@ -469,7 +479,7 @@ export default function Home() {
               Download CV
             </a>
             <a
-              href="https://www.linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/rity-kipula-975508337"
               target="_blank"
               rel="noreferrer"
               className="rounded-lg border border-[#f8bbd0]/60 px-6 py-3 text-[#f8bbd0] hover:bg-[#f8bbd0]/10"
@@ -477,7 +487,7 @@ export default function Home() {
               LinkedIn
             </a>
             <a
-              href="mailto:your@email.com"
+              href="mailto:kipularity@gmail.com"
               className="rounded-lg border border-white/25 px-6 py-3 text-white/90 hover:bg-white/5"
             >
               Email Me

@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <div className="pt-16"> {/* offset for fixed navbar */}
+      <div> {/* offset for fixed navbar */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />

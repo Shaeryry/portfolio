@@ -1,10 +1,11 @@
 [
-  { "name": "React", "level": "Advanced", "icon": "/icons/react.svg" },
+  { "name": "React", "level": "Advanced", "icon": "./icons/react.svg" },
   { "name": "C#", "level": "Intermediate" },
-  { "name": "Roblox Luau", "level": "Advanced", "icon": "/icons/luau.svg" },
-  { "name": "MySQL", "level": "Intermediate", "icon": "/icons/mysql.svg" },
-  { "name": "C++", "level": "Intermediate", "icon": "/icons/cplusplus.svg" },
-  { "name": "Bootstrap", "level": "Intermediate", "icon": "/icons/bootstrap.svg" },
-  { "name": "Blender", "level" : "Basic", "icon" : "/icons/blender.svg"}
+  { "name": "Roblox Luau", "level": "Advanced", "icon": "./icons/luau.svg" },
+  { "name": "MySQL", "level": "Intermediate", "icon": "./icons/mysql.svg" },
+  { "name": "C++", "level": "Intermediate", "icon": "./icons/cplusplus.svg" },
+  { "name": "Bootstrap", "level": "Intermediate", "icon": "./icons/bootstrap.svg" },
+  { "name": "Blender", "level" : "Basic", "icon" : "./icons/blender.svg"}
+
 
 ]
